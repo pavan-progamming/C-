@@ -62,3 +62,37 @@ main() {
     }
     
 }
+
+// do while loop
+#include <iostream>
+using namespace std ;
+main(){
+    int i = 1 ;
+    do {
+        cout << "hello" << endl ;
+        i++ ;
+    } while (i<=5);
+
+}
+
+// break statement 
+#include <iostream>
+using namespace std;
+int main() {
+for (int i=0;i<=10;i++) {
+    if(i==5) break ;
+    cout << i << endl;
+
+}
+}
+
+//continue statement 
+#include <iostream>
+using namespace std;
+int main(){
+    int i =1;
+    for(i=0;i<=10;i++) {
+        if(i==5) continue;
+        cout << i << endl ;
+    }
+}
