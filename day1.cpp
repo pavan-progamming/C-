@@ -32,7 +32,6 @@ main()
     cout << b << endl;
     cout << c << endl;
 }
-
 // Arthimatic operations 
 #include <iostream>
 using namespace std;
@@ -47,7 +46,6 @@ main() {
     cout << "the difference is :- " << a - b << endl;
     cout << "the product is :- " << a * b << endl;
     cout << "the division is :- " << a / b << endl;
-
 }
 
 
