@@ -1,34 +1,33 @@
-// // Linear search
-
-// #include <iostream>
-// using namespace std;
-// int ls(int arr[5], int num)
-// {
-//     for (int i = 0; i < 5; i++)
-//     {
-//         if (arr[i] == num)
-//         {
-//             return true;
-//         }
-//     }
-//     return false;
-// }
-// int main()
-// {
-//     cout << "Enter the number you want to search: ";
-//     int arr[5] = {1, 2, 3, 4, 5};
-//     int num;
-//     cin >> num;
-//     if (ls(arr, num))
-//     {
-//         cout << "it is present ";
-//     }
-//     else
-//     {
-//         cout << "it is not present";
-//     }
-//     return 0;
-// }
+// Linear search
+#include <iostream>
+using namespace std;
+int ls(int arr[5], int num)
+{
+    for (int i = 0; i < 5; i++)
+    {
+        if (arr[i] == num)
+        {
+            return true;
+        }
+    }
+    return false;
+}
+int main()
+{
+    cout << "Enter the number you want to search: ";
+    int arr[5] = {1, 2, 3, 4, 5};
+    int num;
+    cin >> num;
+    if (ls(arr, num))
+    {
+        cout << "it is present ";
+    }
+    else
+    {
+        cout << "it is not present";
+    }
+    return 0;
+}
 
 //same problem but using boolean operations 
 #include<iostream>
